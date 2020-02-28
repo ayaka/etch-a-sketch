@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header {
+  text-align: center;
+}
+.btn {
+  font-weight: bold;
+  margin: 1rem;
+  padding: 7px 10px;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.5s;
+}
+.change-color {
+  background: black;
+  color: white;
+}
+.container {
+  margin: 1rem auto;
+  width: 600px;
+  height: 600px;
+}
