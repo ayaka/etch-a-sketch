@@ -36,7 +36,7 @@ function pickColor(square, ratio = 1) {
   let rgb = [];
   // ratio to be used for darkening steps for Version 2
   for (let i = 0; i < 3; i++) {
-    rgb[i] = (Math.floor(Math.random() * 255) * ratio).toFixed(0);
+    rgb[i] = (Math.floor(Math.random() * 256) * ratio).toFixed(0);
   }
   if (status === "Version 1") {
     square.dataset.rgb = `${rgb[0]}, ${rgb[1]}, ${rgb[2]}`;
